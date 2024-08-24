@@ -1,0 +1,109 @@
+.bonheur-royale-regular {
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero {
+background-image: url("images/palace2.jpg");
+background-size: cover;
+height: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+text-shadow: 0 0 4px black;
+font-family: 'Bonheur Royale', 'Times New Roman', Times, serif;
+padding-top: 10px;
+}
+
+.txt1 {
+    background-image: linear-gradient(rgb(36, 153, 199),rgb(82, 214, 201));
+    padding: 0px 10px;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.txt2 {
+    background-image: linear-gradient(rgb(56, 156, 198),rgb(26, 59, 106));
+    padding: 0 10px;
+    border-radius: 4px;
+    font-size: 40px;
+
+}
+
+/* ----------------------------end of hero ---------------------------- */
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-image: linear-gradient(rgb(216, 255, 242), aqua) ;
+    padding-top: 10px;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+.places {
+    display: flex;
+    padding: 20px 20px 20px 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.place1, .place2, .place3 {
+width: 400px;
+}
+
+.pic:hover {
+    width: 230px;
+}
+
+/* ---------------------------- end of main ---------------------------- */
+
+.footer {
+    background-image: linear-gradient(beige, pink);
+    padding: 60px;
+}
+
+.card {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    background-color: rgb(126, 217, 183);
+    border-bottom: 8px rgb(12, 46, 75) solid;
+    align-items: center;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.card:hover 
+{
+    width: 505px;
+}
+
+.txt3 {
+    padding-left: 10px;
+}
+
+.cur {
+    font-style: italic;
+    font-weight: bold;
+}
